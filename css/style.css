@@ -7,9 +7,34 @@
 }
 
 body {
+    color: white;
+    background-color: limegreen;
     text-align: center;
 }
 
 .box {
+    float: left;
+    margin: 10px;
+    padding: 10px;
     border: 1px solid black;
+    width: 300px; height: 300px;
+    align-content: center;
+}
+
+.container {
+    margin: 0 auto;
+    width: 700px;
+    height: 700px;
+}
+
+header {
+    align-content: center;
+    background-color: #123;
+    height: 200px;
+}
+
+nav {
+    align-content: center;
+    background-color: #128;
+    height: 500px;
 }
